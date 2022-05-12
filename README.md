@@ -6,6 +6,10 @@ A wrapper for deploying [Node-RED](http://nodered.org) into the [Heroku](https:/
 ## Node-RED v2.x on Heroku
 
 forked by https://github.com/joeartsea/node-red-heroku
+forked by https://github.com/n0bisuke/node-red-heroku
+
+fork元からHerokuでNode-REDを動かすとパレット管理の追加ができなかったため、package.jsonのバージョンをより最新に変更しています。
+また、fork元と同じくbuildpackとしてpostfresが入るようになっています。
 
 ### Deploying Node-RED into Heroku
 
